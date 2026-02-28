@@ -95,21 +95,18 @@ p{
 }
 
 .work{
-    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .education{
-    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .rev{
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,23 +135,30 @@ p{
         font-size: 1rem;
     }
 
+    ul{
+        flex-direction: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 25px;
+    }
     #logo {
         font-size: 30px;
     }
 
-    .box, .navbar {
+    .navbar {
         flex-direction: column;
         height: auto;
         padding: 15px 0;
     }
 
-    .navbar, .box, .project, .work, .education {
+    .navbar,.project, .work, .education {
         justify-content: center;
         text-align: center;
     }
 
     .design {
         margin-top: 40px;
+        margin-bottom: 20px;
         height: auto;
     }
 
@@ -169,3 +173,21 @@ p{
     color: red;
     margin-right: 30px;
 }
+
+.box{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.review{
+    border-radius: 10%;
+}
+
+.text1{
+    font-size: 0.8rem;
+}
+
+.text2{
+    font-size: 0.6rem;
+}
+
