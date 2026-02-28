@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+
 .navbar{
     height: 60px;
     background-color: black;
@@ -11,13 +17,23 @@
 a{
     color: white;
     text-decoration: none;
-    margin-right: 200px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
 }
 
 #logo{
-    font-size: 50px;
+    font-size: 40px;
     color: red;
 }
+
 
 .review{
     height: 100px;
@@ -116,7 +132,7 @@ p{
 }
 
 
-@media (max-width: 586px) {
+@media (max-width: 750px) {
     a {
         margin-right: 20px;
         font-size: 1rem;
@@ -146,5 +162,4 @@ p{
         margin-top: 20px;
         display: block;
     }
-
 }
